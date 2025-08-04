@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Birthday, Dhetch!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Birthday, Dhetch! 🎉</h1>
+
+    <div class="slideshow-container">
+      <img class="slide" src="photos/photo1.jpg" alt="Photo 1" />
+      <img class="slide" src="photos/photo2.jpg" alt="Photo 2" />
+      <img class="slide" src="photos/photo3.jpg" alt="Photo 3" />
+      <img class="slide" src="photos/photo4.jpg" alt="Photo 4" />
+      <img class="slide" src="photos/photo5.jpg" alt="Photo 5" />
+      <img class="slide" src="photos/photo6.jpg" alt="Photo 6" />
+      <img class="slide" src="photos/photo7.jpg" alt="Photo 7" />
+      <img class="slide" src="photos/photo8.jpg" alt="Photo 8" />
+      <img class="slide" src="photos/photo9.jpg" alt="Photo 9" />
+      <img class="slide" src="photos/photo10.jpg" alt="Photo 10" />
+    </div>
+
+    <p class="message">Wishing you the happiest birthday filled with love and joy!</p>
+
+    <button id="music-toggle">🔈 Mute/Unmute Music</button>
+  </div>
+
+  <audio id="birthday-music" loop autoplay>
+    <source src="music/happy_birthday.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <canvas id="confetti-canvas"></canvas>
+
+  <script src="script.js"></script>
+  <script src="confetti.js"></script>
+</body>
+</html>
